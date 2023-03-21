@@ -1,32 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
+   <meta charset="UTF-8">
+   <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+   <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="dist/css/style.css">
+   <link rel="stylesheet" href="dist/css/style-fonts.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 </head>
+
 <body>
 
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
-    </div>
-    <!-- Конец -->
+   <!-- Начало: Данный блок удалять нельзя -->
+   <div class="maketforfigma">
+      <a href="https://t.me/s/FigmaToHTML" target="_blank">
+         <img src="img/logo.png">
+      </a>
+      <div>
+         <p>
+            Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+               href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+         </p>
+         <p>
+            При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+            пользователь получил оплату за верстку этого макета.
+         </p>
+      </div>
+   </div>
+   <!-- Конец -->
 
-    <div class="main">
-        В данном блоке размещается верстка
-    </div>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__menu menu">
+               <nav class="menu__body">
+                  <ul class="menu__list">
+                     <li class="menu__item"><a href="" class="menu__link">Collections</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">Products</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">Inspiration</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">About us</a></li>
+                     <li class="menu__item"><a href="" class="menu__link">Find a dealer</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <div class="main">
+         <section class="first-screen">
+            <h1 class="first-screen__title title title_w">Lasting memories</h1>
+            <img src="./src/img/main.png" alt="Фон">
+         </section>
+         <section class="making">
+            <div class="making__column making__column_body">
+               <div class="making__cnt">
+                  <h2 class="making__tytle title">Making<br>tables<br>heroes</h2>
+                  <div class="making__body">
+                     <p data-tab="1" class="making__text text _text-active">Chairs, cabinets, but especially tables by
+                        Joli
+                        are
+                        durable products,
+                        designed to last and to be used intensively.</p>
+                     <p data-tab="2" class="making__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Enim nam qui
+                        impedit repudiandae aperiam officiis quia fugiat ducimus dolor esse, quos, optio perspiciatis
+                        voluptate quas veritatis laudantium? Dignissimos, quae mollitia!</p>
+                  </div>
+                  <div class="making__button">
+                     <button data-tab="1" class="making__btn _btn-active">About us</button>
+                     <button data-tab="2" class="making__btn">Collections</button>
+                  </div>
+               </div>
+            </div>
+            <div class="making__column">
+               <img class="making__img making__img_1" src="./src/img/about/1.png" alt="content">
+               <img class="making__img making__img_2" src="./src/img/about/2.png" alt="content">
+               <img class="making__img making__img_3" src="./src/img/about/3.png" alt="content">
+            </div>
+         </section>
+         <section class="collection">
+            <div class="collection__container">
+               <div class="collection__cnt">
+                  <h2 class="collection__title title">Our<br>collections</h2>
+                  <div class="collection__menu menu-collection">
+                     <ul class="menu-collection__list">
+                        <li class="menu-collection__item"><a href="#" class="menu-collection__link">Central</a></li>
+                        <li class="menu-collection__item"><a href="#" class="menu-collection__link">Olivo</a></li>
+                        <li class="menu-collection__item"><a href="#" class="menu-collection__link">Morisot</a></li>
+                        <li class="menu-collection__item"><a href="#" class="menu-collection__link">Curve</a></li>
+                        <li class="menu-collection__item"><a href="#" class="menu-collection__link">Wire</a></li>
+                        <li class="menu-collection__item"><a href="#" class="menu-collection__link">Marguerite</a></li>
+                        <li class="menu-collection__item"><a href="#" class="menu-collection__link">Fizz</a></li>
+                        <li class="menu-collection__item"><a href="#" class="menu-collection__link">Rafael</a></li>
+                        <li class="menu-collection__item"><a href="#" class="menu-collection__link">Chagall</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- Оболочка слайдера -->
+               <div class="collection__slider swiper">
+                  <!-- Двигающееся часть слайдера -->
+                  <div class="collection__wrapper swiper-wrapper">
+                     <!-- Слайды -->
+                     <div class="collection__slide swiper-slide slide">
+                        <div class="slide__body">
+                           <div class="slide__poster">
+                              <img src="./src/img/collection/1.png" alt="slide1">
+                              <a href="#" class="slide__link-poster">Central</a>
+                           </div>
+                           <a href="" class="slide__link _icon-arrow"><span>ready to become the centerpiece of your
+                                 home</span></a>
+                        </div>
+                     </div>
+                     <div class="collection__slide swiper-slide slide">
+                        <div class="slide__body">
+                           <div class="slide__poster">
+                              <img src="./src/img/collection/2.png" alt="slide2">
+                              <a href="#" class="slide__link-poster">Olivo</a>
+                           </div>
+                           <a href="" class="slide__link _icon-arrow"><span>Believe us, this will be a real
+                                 eye-catcher</span></a>
+                        </div>
+                     </div>
+                     <div class="collection__slide swiper-slide slide">
+                        <div class="slide__body">
+                           <div class="slide__poster">
+                              <img src="./src/img/collection/1.png" alt="slide1">
+                              <a href="#" class="slide__link-poster">Morisot</a>
+                           </div>
+                           <a href="" class="slide__link _icon-arrow"><span>ready to become the centerpiece of your
+                                 home</span></a>
+                        </div>
+                     </div>
+                     <div class="collection__slide swiper-slide slide">
+                        <div class="slide__body">
+                           <div class="slide__poster">
+                              <img src="./src/img/collection/2.png" alt="slide2">
+                              <a href="#" class="slide__link-poster">Curve</a>
+                           </div>
+                           <a href="" class="slide__link _icon-arrow"><span>Believe us, this will be a real
+                                 eye-catcher</span></a>
+                        </div>
+                     </div>
+                     <div class="collection__slide swiper-slide slide">
+                        <div class="slide__body">
+                           <div class="slide__poster">
+                              <img src="./src/img/collection/1.png" alt="slide1">
+                              <a href="#" class="slide__link-poster">Wire</a>
+                           </div>
+                           <a href="" class="slide__link _icon-arrow"><span>ready to become the centerpiece of your
+                                 home</span></a>
+                        </div>
+                     </div>
+                     <div class="collection__slide swiper-slide slide">
+                        <div class="slide__body">
+                           <div class="slide__poster">
+                              <img src="./src/img/collection/2.png" alt="slide2">
+                              <a href="#" class="slide__link-poster">Marguerite</a>
+                           </div>
+                           <a href="" class="slide__link _icon-arrow"><span>Believe us, this will be a real
+                                 eye-catcher</span></a>
+                        </div>
+                     </div>
+                     <div class="collection__slide swiper-slide slide">
+                        <div class="slide__body">
+                           <div class="slide__poster">
+                              <img src="./src/img/collection/1.png" alt="slide1">
+                              <a href="#" class="slide__link-poster">Fizz</a>
+                           </div>
+                           <a href="" class="slide__link _icon-arrow"><span>ready to become the centerpiece of your
+                                 home</span></a>
+                        </div>
+                     </div>
+                     <div class="collection__slide swiper-slide slide">
+                        <div class="slide__body">
+                           <div class="slide__poster">
+                              <img src="./src/img/collection/2.png" alt="slide2">
+                              <a href="#" class="slide__link-poster">Rafael</a>
+                           </div>
+                           <a href="" class="slide__link _icon-arrow"><span>Believe us, this will be a real
+                                 eye-catcher</span></a>
+                        </div>
+                     </div>
+                     <div class="collection__slide swiper-slide slide">
+                        <div class="slide__body">
+                           <div class="slide__poster">
+                              <img src="./src/img/collection/1.png" alt="slide1">
+                              <a href="#" class="slide__link-poster">Chagall</a>
+                           </div>
+                           <a href="" class="slide__link _icon-arrow"><span>ready to become the centerpiece of your
+                                 home</span></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="collection__navigation">
+                  <div class="slider-collection-prev _icon-arrow"></div>
+                  <div class="swiper-pagination"></div>
+                  <div class="slider-collection-next _icon-arrow"></div>
+               </div>
+            </div>
+         </section>
+         <section class="dealer block">
+            <div class="dealer__content block__content">
+               <div class="dealer__container">
+                  <div class="dealer__body block__body">
+                     <h2 class="dealer__title title">Find a<br>dealer</h2>
+                     <p class="dealer__text text">We work together with dealers in 19 countries, all over the world.
+                        Find
+                        out
+                        which one is closest to you.</p>
+                     <form action="#" class="dealer__forma">
+                        <input type="text" class="dealer__address" placeholder="Your location">
+                        <input type="submit" value="search" class="dealer__btn">
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="dealer__img block__img">
+               <img src="./src/img/dealer/1.png" alt="content">
+            </div>
+         </section>
+         <section class="terrace">
+            <div class="terrace__container">
+               <div class="terrace__body">
+                  <h2 class="terrace__title title title_w"><span>Terrace</span><br>Ceremonies & Meetings</h2>
+                  <button class="terrace__btn">Inspire me</button>
+               </div>
+               <img class="terrace__fon terrace__fon_1" src="./src/img/terrace/1.png" alt="content1">
+               <img class="terrace__fon terrace__fon_2" src="./src/img/terrace/3.png" alt="content2">
+            </div>
+            <img class="terrace__fon terrace__fon_3" src="./src/img/terrace/2.png" alt="content3">
+         </section>
+         <section class="manages">
+            <h3 class="manages__title">Joli manages to<br>offer designs<br>that are both<br>timelessly modern<br>and
+               trendy
+            </h3>
+            <button class="manages__btn">About us</button>
+         </section>
+         <section class="dealer block dealer_2">
+            <div class="dealer__content block__content">
+               <div class="dealer__container">
+                  <div class="dealer__body block__body">
+                     <h2 class="dealer__title title">Become a<br>dealer</h2>
+                     <p class="dealer__text text">Do you want to become a Joli retailer? Please submit the following
+                        form and we will contact you!</p>
+                     <form action="#" class="dealer__forma">
+                        <a href="#" class="dealer__btn">Learn more</a>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="dealer__img block__img">
+               <img src="./src/img/dealer/2.png" alt="content">
+            </div>
+         </section>
+         <div class="director">
+            <div class="director__img">
+               <img src="./src/img/1.png" alt="director">
+            </div>
+         </div>
+         <section class="request">
+            <div class="request__container">
+               <h2 class="request__title">Request our<br>2022 catalogue.</h2>
+               <form action="#" class="request__form">
+                  <div class="request__address">
+                     <div class="request__input">
+                        <p>Email address*</p>
+                        <input type="text">
+                     </div>
+                     <input class="request__btn" type="submit" value="Send">
+                  </div>
+                  <div class="request__sogl">
+                     <input type="checkbox" checked>
+                     <a href="#">I agree with the Privacy & Cookie Policy of Joli</a>
+                  </div>
+               </form>
+            </div>
+         </section>
+      </div>
+      <footer class="footer">
+         <div class="footer__container">
+            <div class="footer__logo"><img src="./src/img/logo.svg" alt="logo"></div>
+            <div class="footer__body body-footer">
+               <div class="body-footer__main">
+                  <div class="body-footer__column">
+                     <ul class="body-footer__list">
+                        <li class="body-footer__item body-footer__item_top"><a href="#"
+                              class="body-footer__linck">Collections</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Wire</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Curve</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Fizz</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Marguerite</a></li>
+                     </ul>
+                  </div>
+                  <div class="body-footer__column">
+                     <ul class="body-footer__list">
+                        <li class="body-footer__item body-footer__item_top"><a href="#"
+                              class="body-footer__linck">Products</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Tables</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Chairs</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Cabinets</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Accessories</a></li>
+                     </ul>
+                  </div>
+                  <div class="body-footer__column">
+                     <ul class="body-footer__list">
+                        <li class="body-footer__item body-footer__item_top"><a href="#"
+                              class="body-footer__linck">Inspiration</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Joli Days 2022</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Terrace</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Ceremonies & Meetings</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="body-footer__column">
+                     <ul class="body-footer__list">
+                        <li class="body-footer__item body-footer__item_top"><a href="#" class="body-footer__linck">About
+                              us</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Materials</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Find a dealer</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Professionals</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">News</a></li>
+                     </ul>
+                  </div>
+                  <div class="body-footer__column">
+                     <ul class="body-footer__list">
+                        <li class="body-footer__item body-footer__item_top"><a href="#"
+                              class="body-footer__linck">Contact</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck"><span>Industrielaan
+                                 5</span> 8520
+                              Kortrijk</a></li>
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">info@joli.be</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="body-footer__bottom">
+                  <div class="body-footer__column">
+                     <ul class="body-footer__list">
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Privacy & Cookie Policy</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="body-footer__column">
+                     <ul class="body-footer__list">
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">Disclaimer</a></li>
+                     </ul>
+                  </div>
+                  <div class="body-footer__column">
+                     <ul class="body-footer__list">
+                        <li class="body-footer__item"><a href="#" class="body-footer__linck">made by skinn</a></li>
+                     </ul>
+                  </div>
+                  <div class="body-footer__column">
+                     <div class="body-footer__soc">
+                        <a href="#" class="body-footer__icon _icon-fb"></a>
+                        <a href="#" class="body-footer__icon _icon-inst"></a>
+                        <a href="#" class="body-footer__icon _icon-pint"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
 
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <script src="./dist/script.js"></script>
 </body>
+
 </html>
